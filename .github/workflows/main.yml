@@ -24,13 +24,12 @@ jobs:
           path: 'master'
           
       # Build static content into public/
-      - name: Build
+      - name: Build static site
         uses: nickh/verticellis@b7
 
       # Runs a set of commands using the runners shell
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+      - name: Push static site
+        uses: peaceiris/actions-gh-pages@v3
         with:
-           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-           BRANCH: gh-pages # The branch the action should deploy to.
-           FOLDER: public # The folder the action should deploy.
+           github_token: ${{ secrets.GITHUB_TOKEN }}
+           publish_dir: ./public
