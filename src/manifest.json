@@ -1,5 +1,7 @@
 {
   "comics": [{
+      "author": "Nick Hengeveld",
+      "author_url": "",
       "title": "Hawaii",
       "number_of_pages": 1,
       "folder": "hawaii",
