@@ -1,7 +1,13 @@
-"title": "Hawaii",
-"number_of_pages": 1,
-"folder": "hawaii",
-"image_format": "jpg",
-"url_slug": "example-01",
-"previous_chapter_url_slug": "",
-"next_chapter_url_slug": "example-02"
+{
+  "comics": [{
+      "title": "Hawaii",
+      "number_of_pages": 1,
+      "folder": "hawaii",
+      "image_format": "jpg",
+      "url_slug": "example-01",
+      "previous_chapter_url_slug": "",
+      "next_chapter_url_slug": "example-02"
+    }
+  ]
+}
+
