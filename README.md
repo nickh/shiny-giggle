@@ -1,1 +1,3 @@
-# shiny-giggle
+# Shiny Giggle
+
+Shiny! Let's do giggle stuff 😏
