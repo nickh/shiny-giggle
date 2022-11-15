@@ -2,4 +2,4 @@
 
 Shiny! Let's do giggle stuff 😏
 
-Also close requests!
+Also close requests! Or not. We're flexible.
